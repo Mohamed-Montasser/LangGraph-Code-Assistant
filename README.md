@@ -1,6 +1,6 @@
 # 🧠 Python Code Assistant with LangGraph + Gemini API
 
-This project implements a **smart Python code assistant** using [LangGraph](https://docs.langgraph.dev) for state management and the **Gemini 2.0 Flash** model by Google for natural language understanding and code generation.
+This project implements a **smart Python code assistant** using [LangGraph](https://langchain-ai.github.io/langgraph/concepts/why-langgraph/) for state management and the **Gemini 2.0 Flash** model by Google for natural language understanding and code generation.
 
 It allows users to:
 - 💡 Explain Python code  
