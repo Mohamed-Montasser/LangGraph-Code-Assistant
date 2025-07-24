@@ -25,8 +25,8 @@ It allows users to:
 📦 LangGraph Code Assistant
 ┣ assistant.py                   # Main code assistant script
 ┣ LICENSE                        # permissive license
-┣ week4-langgraph.ipynb          # Code Notebook
 ┣ README.md                      # Project documentation
+┣ week4-langgraph.ipynb          # Code Notebook
 ```
 
 ---
