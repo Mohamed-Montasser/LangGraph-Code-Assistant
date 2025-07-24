@@ -1,2 +1,73 @@
-# LangGraph-Code-Assistant
-Smart assistant that accepts user input, understands their intent (generate or explain Python code), retrieves relevant examples, and calls a large language model (LLM) via API to complete the task. All organized using a LangGraph state machine.
+# 🧠 Python Code Assistant with LangGraph + Gemini API
+
+This project implements a **smart Python code assistant** using [LangGraph](https://docs.langgraph.dev) for state management and the **Gemini 2.0 Flash** model by Google for natural language understanding and code generation.
+
+It allows users to:
+- 💡 Explain Python code  
+- ⚙️ Generate Python code  
+- 📚 Get relevant examples  
+- 🧩 Interact via a modular state machine
+
+---
+
+## 📌 Features
+
+- ✨ Natural language intent detection (generate vs. explain)  
+- 🤖 Gemini 2.0 Flash model integration via HTTP API  
+- 🔁 Example retrieval for better context  
+- 🔧 Modular graph-based architecture with LangGraph  
+
+---
+
+## 📂 Project Structure
+
+```
+.
+├── assistant.py       # Main code assistant script
+├── README.md          # Project documentation
+```
+
+---
+
+## 🧠 How It Works
+
+This assistant is built using a **LangGraph `StateGraph`** with the following states:
+
+1. **`determine_intent`** – Understand if the user wants to *generate* or *explain* code.  
+2. **`retrieve_examples`** – Provide basic examples to assist the model.  
+3. **`generate_output`** – Craft a prompt and call Gemini API for a response.  
+4. **`display_output`** – Print the result to the console.  
+
+---
+
+## 📬 Example Interaction
+
+```text
+> What would you like help with?
+Explain: def greet(name): return "Hello " + name
+
+=== RESULT ===
+This function takes a name as input and returns a greeting string by concatenating "Hello " with the provided name.
+```
+
+---
+
+## 🛡️ Disclaimer
+
+This is a **proof-of-concept educational project**.  
+Do **not** hardcode API keys in production.  
+Use `.env` files or secrets managers for sensitive data.
+
+---
+
+## 🧑‍💻 Author
+
+**Mohamed Montasser**  
+[GitHub Profile](https://github.com/Mohamed-Montasser)  
+LangGraph, Python, and AI Enthusiast 🤖
+
+---
+
+## 📝 License
+
+MIT License – use, modify, share freely!
