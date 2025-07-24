@@ -22,9 +22,11 @@ It allows users to:
 ## 📂 Project Structure
 
 ```
-.
-├── assistant.py       # Main code assistant script
-├── README.md          # Project documentation
+📦 LangGraph Code Assistant
+┣ assistant.py                   # Main code assistant script
+┣ LICENSE                        # permissive license
+┣ week4-langgraph.ipynb          # Code Notebook
+┣ README.md                      # Project documentation
 ```
 
 ---
