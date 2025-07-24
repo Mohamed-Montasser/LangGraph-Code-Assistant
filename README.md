@@ -52,14 +52,6 @@ This function takes a name as input and returns a greeting string by concatenati
 
 ---
 
-## 🛡️ Disclaimer
-
-This is a **proof-of-concept educational project**.  
-Do **not** hardcode API keys in production.  
-Use `.env` files or secrets managers for sensitive data.
-
----
-
 ## 🧑‍💻 Author
 
 **Mohamed Montasser**  
