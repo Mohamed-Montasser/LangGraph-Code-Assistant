@@ -63,9 +63,6 @@ Use `.env` files or secrets managers for sensitive data.
 ## 🧑‍💻 Author
 
 **Mohamed Montasser**  
-[GitHub Profile](https://github.com/Mohamed-Montasser)  
-LangGraph, Python, and AI Enthusiast 🤖
-
 ---
 
 ## 📝 License
