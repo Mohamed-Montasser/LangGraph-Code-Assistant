@@ -26,7 +26,6 @@ It allows users to:
 ┣ assistant.py                   # Main code assistant script
 ┣ LICENSE                        # permissive license
 ┣ README.md                      # Project documentation
-┣ week4-langgraph.ipynb          # Code Notebook
 ```
 
 ---
